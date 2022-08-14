@@ -11,7 +11,7 @@ import {
   Button,
 } from 'theme-ui';
 import Input from 'components/input';
-import banner from 'assets/images/banner.png';
+import banner from 'assets/images/banner4.png';
 import paypal from 'assets/images/paypal.png';
 import google from 'assets/images/google.png';
 import dropbox from 'assets/images/dropbox.png';
@@ -24,12 +24,10 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading as="h1">
-              Build your audience &amp; grow your business online smarter
+              An Ecosystem for Startups and Entrepreneurs !!
             </Heading>
             <Text as="p">
-              Get your blood tests delivered at let home collect sample from the
-              victory of the managements that supplies best design system
-              guidelines ever.
+              Startic Field is the first of its kind structured platform for college-based startups. Just put in your idea and we will help you unleash the full potential of the business which your idea can become!
             </Text>
             <Box sx={styles.subscribe}>
               <Label htmlFor="email" variant="styles.srOnly">
@@ -41,20 +39,6 @@ const Banner = () => {
                 placeholder="Enter Email address"
               />
               <Button variant="primary">Subscribe</Button>
-            </Box>
-            <Box sx={styles.sponsoredBy}>
-              <Text as="span">Sponsored by:</Text>
-              <Box sx={styles.logos}>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={paypal} alt="paypal" />
-                </Box>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={google} alt="google" />
-                </Box>
-                <Box as="figure" sx={{ display: 'flex' }}>
-                  <Image src={dropbox} alt="dropbox" />
-                </Box>
-              </Box>
             </Box>
           </Box>
           <Box as="figure" sx={styles.illustration}>

@@ -48,7 +48,6 @@ const styles = {
       position: 'fixed',
       left: 0,
       right: 0,
-      py: 20,
       transition: 'all 0.3s ease-in-out 0s',
       '&.is-mobile-menu': {
         backgroundColor: 'white',
@@ -58,7 +57,6 @@ const styles = {
       header: {
         backgroundColor: 'white',
         boxShadow: '0 6px 13px rgba(38,78,118,0.1)',
-        py: 13,
       },
     },
   },
@@ -97,7 +95,10 @@ const styles = {
     },
   },
   logo: {
+    maxWidth: '18vh',
+    m: [0, 0, 0, 0, 0],
     mr: [null, null, null, null, 50],
+
   },
   navbar: {
     alignItems: 'center',
@@ -126,7 +127,7 @@ const styles = {
     display: ['none', null, null, null, 'flex'],
   },
   getStartedMobile: {
-    color: '#F94962',
+    color: 'primary',
     fontSize: [12, null, null, 16],
     minHeight: 30,
     m: ['0 15px 0 auto'],

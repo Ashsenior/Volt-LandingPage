@@ -17,7 +17,7 @@ const BlogPost = ({ post }) => {
         </Heading>
         <Text as="span" sx={styles.commentCount}>
           <Image src={chat} alt="chat icon" />
-          {post?.commentCount} Comments
+           Step {post?.commentCount}
         </Text>
       </Box>
     </Box>

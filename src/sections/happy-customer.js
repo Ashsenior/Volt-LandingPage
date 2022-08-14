@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Image } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import { LearnMore } from 'components/link';
-import customer from 'assets/images/customer.png';
+import customer from 'assets/images/modules.png';
 import emoji from 'assets/images/icons/emoji-3.png';
 
 const HappyCustomer = () => {
