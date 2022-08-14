@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Flex, Button } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
-import { NavLink } from 'components/link';
+import {NavLink} from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import DrawerNav from './drawer-nav';
 import menuItems from './header.data';
@@ -25,9 +25,9 @@ export default function Header() {
                       </li>
                     ))}
                   </Box>
-                  <Button variant="text" sx={styles.getStartedDesktop}>
-                    Get Started
-                  </Button>
+                    <a sx={styles.getStartedDesktop}  href={'https://starticfield-devlooper.vercel.app'}>
+                      Get Started
+                    </a>
                 </Flex>
                 <Button variant="text" sx={styles.getStartedMobile}>
                   Get Started
@@ -123,6 +123,8 @@ const styles = {
     },
   },
   getStartedDesktop: {
+    textDecoration: 'none',
+    fontWeight: 'bold',
     color: 'primary',
     display: ['none', null, null, null, 'flex'],
   },
