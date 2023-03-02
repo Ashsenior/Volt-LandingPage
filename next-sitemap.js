@@ -1,4 +1,6 @@
-module.exports = {
+ 
+ module.exports = {
+
   siteUrl: 'https://startup-agency-beta.vercel.app',
   generateRobotsTxt: true,
   // optional
